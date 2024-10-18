@@ -1,15 +1,20 @@
 :root{
     --primary-color: #171c28;
     --secondary-color:#55198B;
-    --primary-font-size:20px;
+    --main-name-color:#2dc7ff;
+    --primary-font-size:25px;
+    --text-font-size:20px;
     --brand-color:white;
     --body-inner-ppading:5px;
+    --hover-button-color:#973aa8;
 }
 
 body{
     background-color: var(--primary-color) !important;
     font-size: var(--primary-font-size) !important; 
     padding: var(--body-inner-ppading)!important;
+    font-family: 'Courier New', Courier, monospace !important;
+
 }
 
 .navbar
@@ -34,7 +39,7 @@ body{
 
 #about-me
 {
-    margin-top: 20px;
+    margin-top:30px;
     overflow: hidden;
 }
 
@@ -55,12 +60,25 @@ body{
 {
     font-size: 55px;
     font-weight:bold;
-    color:var(--secondary-color)
+    color:var(--main-name-color)
 }
 
 #intro #breif
 {
-    font-size: var(--primary-font-size);
+    font-size: var(--text-font-size);
     color:white !important;
     line-height:35px;
+}
+
+.btn-primary{
+  background-color: var(--secondary-color) !important;
+  color:white !important;
+  font-size:var(--text-font-size) !important;
+  border-color:transparent !important;
+  padding:15px !important;
+}
+
+.btn-primary:hover
+{
+    background-color:var(--hover-button-color) !important;
 }
