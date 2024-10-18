@@ -1,0 +1,66 @@
+:root{
+    --primary-color: #171c28;
+    --secondary-color:#55198B;
+    --primary-font-size:20px;
+    --brand-color:white;
+    --body-inner-ppading:5px;
+}
+
+body{
+    background-color: var(--primary-color) !important;
+    font-size: var(--primary-font-size) !important; 
+    padding: var(--body-inner-ppading)!important;
+}
+
+.navbar
+{
+    margin-top:10px;
+}
+.navbar-brand
+{
+    color: var(--brand-color) !important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+}
+.nav-link
+{
+    color:white !important
+}
+
+.nav-item:hover
+{
+    background-color:var(--secondary-color)
+}
+
+#about-me
+{
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#about-me .memoji
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+#about-me .memoji img
+{
+    height:450px;
+}
+
+#intro #name
+{
+    font-size: 55px;
+    font-weight:bold;
+    color:var(--secondary-color)
+}
+
+#intro #breif
+{
+    font-size: var(--primary-font-size);
+    color:white !important;
+    line-height:35px;
+}
