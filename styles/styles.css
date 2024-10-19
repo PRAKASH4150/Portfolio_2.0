@@ -2,7 +2,7 @@
     --primary-color: #171c28;
     --secondary-color:#55198B;
     --main-name-color:#2dc7ff;
-    --primary-font-size:25px;
+    --primary-font-size:20px;
     --text-font-size:20px;
     --brand-color:white;
     --body-inner-ppading:5px;
@@ -13,8 +13,7 @@ body{
     background-color: var(--primary-color) !important;
     font-size: var(--primary-font-size) !important; 
     padding: var(--body-inner-ppading)!important;
-    font-family: 'Courier New', Courier, monospace !important;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar
@@ -43,27 +42,29 @@ body{
     overflow: hidden;
 }
 
-#about-me .memoji
-{
+#about-me .memoji {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
+    flex-direction: column;   /* Stack the content vertically */
+    align-items: center;      /* Horizontal centering */
+    justify-content: center;  /* Vertical centering */
+    height: 100%;             /* Ensures full height for proper centering */
+    text-align: center;       /* For smaller content like text or icons */
+    margin-bottom:15px;
 }
 
 #about-me .memoji img
 {
     height:450px;
 }
-
-#intro #name
+  
+.intro .name
 {
     font-size: 55px;
     font-weight:bold;
     color:var(--main-name-color)
 }
 
-#intro #breif
+.intro .breif
 {
     font-size: var(--text-font-size);
     color:white !important;
@@ -75,10 +76,57 @@ body{
   color:white !important;
   font-size:var(--text-font-size) !important;
   border-color:transparent !important;
-  padding:15px !important;
+  padding:10px !important;
+  text-align: center !important;
+  width:150px !important;
 }
 
 .btn-primary:hover
 {
     background-color:var(--hover-button-color) !important;
+}
+
+#downloadresume
+{
+    margin-right: 20px !important;
+}
+
+.media-icons
+{
+    display:flex;
+    align-items: center;      /* Horizontal centering */
+    justify-content: center;  /* Vertical centering */    
+}
+
+.media-icons a{
+    margin-right: 20px;
+}
+
+.fa-github
+{
+    color:white;
+}
+
+.fa-instagram
+{
+    color:#ff006e;
+}
+.fa-envelope
+{
+    color:#f8961e;
+}
+.fa-linkedin:hover{
+    color:grey;
+}
+.fa-github:hover
+{
+    color:grey;
+}
+.fa-instagram:hover
+{
+    color:grey;
+}
+.fa-envelope:hover
+{
+    color:grey;
 }
