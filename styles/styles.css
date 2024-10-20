@@ -4,6 +4,7 @@
     --main-name-color:#2dc7ff;
     --primary-font-size:20px;
     --text-font-size:20px;
+    --side-heading-font-size:50px;
     --brand-color:white;
     --body-inner-ppading:5px;
     --hover-button-color:#973aa8;
@@ -14,6 +15,7 @@ body{
     font-size: var(--primary-font-size) !important; 
     padding: var(--body-inner-ppading)!important;
     font-family: 'Montserrat', sans-serif;
+    font-weight:lighter !important;
 }
 
 .navbar
@@ -129,4 +131,79 @@ body{
 .fa-envelope:hover
 {
     color:grey;
+}
+.side-heading
+{
+    font-size:var(--side-heading-font-size);
+    color:white;
+    text-align: left !important;
+}
+.inner-side-heading{
+    color:white;
+    text-align: left !important;
+    font-weight:bolder !important;
+}
+.inner-content-list
+{
+    text-align:justify;
+}
+#experience
+{
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+}
+#ivy-header
+{
+    background-color:#457b9d;
+}
+.company
+{
+    font-size:25px;
+    color:white;
+    font-weight:bolder !important;
+}
+.company-logo
+{
+    width:200px;
+}
+.location
+{
+    font-size:20px;
+    color:white;
+}
+
+#hcl-header .location{
+    color:black !important;
+}
+.card-body
+{
+    background-color: var(--primary-color);
+    color:white !important;
+}
+.role,.duration
+{
+    font-weight:bolder !important;
+}
+#unh-header
+{
+    background-color: #e4b61a !important;
+}
+
+#hcl-header .company{
+    color:black;
+}
+
+#skills
+{
+    margin-top: 100px;
+}
+
+.skill-icon
+{
+    color:#2a9d8f;
+}
+.skill-icon p{
+    color:white;
 }

@@ -8,3 +8,4 @@ function downloadResume()
     link.click();
     document.body.removeChild(link);
 }
+AOS.init();
