@@ -230,3 +230,21 @@ body{
     color:black;
     background-color:lightgrey
 }
+
+#education .card-header
+{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  /* Vertically centers the contents */
+    justify-content: center;  /* Horizontally centers the contents */
+    background-color: #f2e9e4 !important;
+}
+#education-unh-logo
+{
+    width:100px;
+}
+
+#education .card-body {
+    max-height: 300px; /* Adjust to desired height */
+    overflow-y: auto;
+  }
