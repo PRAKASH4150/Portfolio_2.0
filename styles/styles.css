@@ -248,3 +248,14 @@ body{
     max-height: 300px; /* Adjust to desired height */
     overflow-y: auto;
   }
+
+#achievements .media-body
+{
+    color:white;
+}
+
+#achievements .text-muted
+{
+  color:white !important;
+  text-align:justify !important;
+}
