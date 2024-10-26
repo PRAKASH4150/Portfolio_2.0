@@ -195,7 +195,7 @@ body{
     color:black;
 }
 
-#skills
+#skills, #projects
 {
     margin-top: 100px;
 }
@@ -206,4 +206,27 @@ body{
 }
 .skill-icon p{
     color:white;
+}
+#projects .card-body
+{
+    background-color: #ced4da !important;
+    color:black !important;
+    border-color:var(--primary-color);
+}
+.card-footer
+{
+    background-color:var(--primary-color) !important;
+    color:white !important;
+    border-color:white !important;
+}
+
+.card-footer a
+{
+    color:white !important;
+}
+
+#projects .card-footer a:hover
+{
+    color:black;
+    background-color:lightgrey
 }
