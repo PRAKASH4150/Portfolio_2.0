@@ -259,3 +259,15 @@ body{
   color:white !important;
   text-align:justify !important;
 }
+#profile-image-container img{
+    width: 100%;       /* The image will take up 100% of its container's width */
+    height: auto;      /* Height will adjust automatically to keep the aspect ratio */
+    max-width: 100%;   /* Ensures the image doesn’t exceed its original size */
+    display: block;
+    border-radius: 20px;
+}
+footer
+{
+ font-size:var(--primary-font-size);
+ color:white;
+}
